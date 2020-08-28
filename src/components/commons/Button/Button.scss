@@ -1,0 +1,25 @@
+@import '../../../styles/abstracts/variables';
+@import '../../../styles/abstracts/mixins';
+
+.btn {
+	width: fit-content;
+	padding: 0 40px;
+
+	cursor: pointer;
+	user-select: none;
+	transition: all 0.3s ease-out 0s;
+
+	border: 1px solid $violet-color;
+	border-radius: 50px;
+	background-color: $violet-color;
+	box-shadow: 0 5px 8px 0 $violet-color;
+
+	line-height: 48px;
+
+	&:hover {
+		color: $violet-color;
+		background-color: $white-color;
+	}
+
+	@include font(inherit, uppercase, $white-color, 15px, 500);
+}

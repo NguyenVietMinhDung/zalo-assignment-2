@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Projects /> renders correctly 1`] = `
+<div
+  className="background"
+  id="relevant-projects"
+>
+  <div
+    className="container"
+    data-aos="fade-right"
+    data-aos-duration="2000"
+  >
+    <div
+      className="title"
+    >
+      Relevant Projects
+    </div>
+    <div
+      className="content"
+    >
+      <Memo(RelevantProjects)
+        items={
+          Array [
+            Object {
+              "description": "A chat tool that helps customers can contact with bankers and versa vice",
+              "endDate": "May 2020",
+              "isCurrentProject": false,
+              "name": "Textme",
+              "role": "Developer",
+              "startDate": "September 2019",
+            },
+            Object {
+              "description": "A ticket-selling website for US high school events",
+              "endDate": "June 2019",
+              "isCurrentProject": false,
+              "name": "Huddle",
+              "role": "Developer",
+              "startDate": "January 2019",
+            },
+            Object {
+              "description": "A micro-services project management application
+which helps managers to keep track of resource allocation",
+              "endDate": "January 2019",
+              "isCurrentProject": false,
+              "name": "ERTPMTool",
+              "role": "Developer",
+              "startDate": "July 2018",
+            },
+            Object {
+              "description": "Provider Search is a user interface that allows
+users to search for practitioners in the MasterFile. Built on the Single",
+              "endDate": "June 2018",
+              "isCurrentProject": false,
+              "name": "PDV",
+              "role": "Developer",
+              "startDate": "February 2018",
+            },
+            Object {
+              "description": "An internal tool which supports managers to keep track of resource allocation",
+              "endDate": "February 2018",
+              "isCurrentProject": false,
+              "name": "DMTool",
+              "role": "Developer",
+              "startDate": "September 2017",
+            },
+          ]
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

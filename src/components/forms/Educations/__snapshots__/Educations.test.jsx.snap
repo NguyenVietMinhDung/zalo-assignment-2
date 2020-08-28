@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Educations /> renders correctly 1`] = `
+<div
+  className="background"
+  id="my-educations"
+>
+  <div
+    className="container"
+    data-aos="fade-right"
+    data-aos-duration="2000"
+  >
+    <div
+      className="title"
+    >
+      Educations
+    </div>
+    <div
+      className="content"
+    >
+      <Memo(TimeLine)
+        iconClassName="lni-graduation"
+        items={
+          Array [
+            Object {
+              "description": "Computer Science Major",
+              "endDate": "April 2018",
+              "key": 1,
+              "organization": "Bach Khoa University, Ho Chi Minh City",
+              "role": "SOFTWARE ENGINEER DEGREE",
+              "startDate": "September 2013",
+            },
+          ]
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

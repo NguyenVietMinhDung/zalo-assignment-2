@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Event /> renders correctly 1`] = `
+<li
+  className="event"
+  data-aos="fade-up-left"
+  data-aos-duration="2000"
+>
+  <div
+    className="organization"
+  />
+  <div
+    className="duration"
+  >
+    <i
+      className="lni-calendar"
+    />
+      
+    undefined - Present
+  </div>
+</li>
+`;

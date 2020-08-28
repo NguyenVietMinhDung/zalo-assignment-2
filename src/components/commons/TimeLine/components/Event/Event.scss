@@ -1,0 +1,35 @@
+@import '../../../../../styles/abstracts/variables';
+@import '../../../../../styles/abstracts/mixins';
+
+.event {
+	padding: 20px 0;
+
+	.organization {
+		@include font(inherit, inherit, $black-color, 18px, 500);
+		position: relative;
+
+		&::before {
+			position: absolute;
+			left: -40px;
+
+			width: 14px;
+			height: 14px;
+
+			content: '';
+
+			border: 4px solid $opalescent-color;
+			border-radius: 100%;
+			background-color: $violet-color;
+		}
+	}
+
+	.role {
+		@include font($default-font-family, inherit, $black-color, 16px, 400);
+		padding-bottom: 15px;
+	}
+
+	.duration {
+		@include font($default-font-family, inherit, inherit, 14px, 100);
+		padding-bottom: 10px;
+	}
+}

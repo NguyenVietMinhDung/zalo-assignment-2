@@ -1,0 +1,21 @@
+@import '../../../../../styles/abstracts/variables';
+
+.basic-info-item {
+	display: flex;
+
+	margin-top: 5px;
+	align-items: center;
+	flex-flow: row wrap;
+
+	.icon {
+		color: $violet-color;
+	}
+
+	.text {
+		padding-left: 10px;
+
+		span:first-child {
+			color: $black-color;
+		}
+	}
+}

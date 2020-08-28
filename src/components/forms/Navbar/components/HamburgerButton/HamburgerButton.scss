@@ -1,0 +1,14 @@
+@import '../../../../../styles/abstracts/variables';
+
+.hamburger-btn {
+	width: 35px;
+	height: 35px;
+
+	@media (min-width: $layout-breakpoint) {
+		display: none;
+	}
+
+	@media (max-width: $layout-breakpoint) {
+		display: flex;
+	}
+}

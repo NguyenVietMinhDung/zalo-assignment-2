@@ -1,0 +1,293 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> renders correctly 1`] = `
+<Fragment>
+  <Memo(Navbar)
+    activateNavigationItem={[MockFunction]}
+    activatedIndex={0}
+    closeIconUrl="test-file-stub"
+    hamburgerIconUrl="test-file-stub"
+    isVisible={false}
+    items={
+      Array [
+        Object {
+          "itemId": "header",
+          "name": "Home",
+          "url": "#home",
+        },
+        Object {
+          "itemId": "about-me",
+          "name": "About",
+          "url": "#about",
+        },
+        Object {
+          "itemId": "work-experiences",
+          "name": "Experiences",
+          "url": "#experiences",
+        },
+        Object {
+          "itemId": "relevant-projects",
+          "name": "Projects",
+          "url": "#projects",
+        },
+        Object {
+          "itemId": "my-educations",
+          "name": "Educations",
+          "url": "#educations",
+        },
+        Object {
+          "itemId": "my-achievements",
+          "name": "Achievements",
+          "url": "#achievements",
+        },
+        Object {
+          "itemId": "footer",
+          "name": "Contact",
+          "url": "#contact",
+        },
+      ]
+    }
+    logoUrl="test-file-stub"
+    openNavigationMenu={[MockFunction]}
+  />
+  <Memo(Header)
+    avatarUrl="test-file-stub"
+    btnTxt="DOWNLOAD MY CV"
+    description="A Freelance UI Designer & Web Developer"
+    name="Dung Nguyen"
+    socialNetworks={
+      Array [
+        Object {
+          "iconUrl": "test-file-stub",
+          "name": "Facebook",
+          "url": "https://www.facebook.com/minh.dung.391",
+        },
+        Object {
+          "iconUrl": "test-file-stub",
+          "name": "Instagram",
+          "url": "https://www.instagram.com/dungvmnguyen",
+        },
+        Object {
+          "iconUrl": "test-file-stub",
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/dungvmn1995",
+        },
+      ]
+    }
+  />
+  <Memo(AboutMe)
+    basicInfo={
+      Array [
+        Object {
+          "iconClassName": "lni-calendar",
+          "name": "Date of birth",
+          "value": "16 January 1995",
+        },
+        Object {
+          "iconClassName": "lni-envelope",
+          "name": "Email",
+          "value": "ngvietminhdung@gmail.com",
+        },
+        Object {
+          "iconClassName": "lni-phone-handset",
+          "name": "Phone",
+          "value": "(076) 401-2912",
+        },
+        Object {
+          "iconClassName": "lni-map-marker",
+          "name": "Location",
+          "value": "Tan Binh District, HCM City",
+        },
+      ]
+    }
+    greeting="Hi There! I'm Dung Nguyen"
+    skills={
+      Array [
+        Object {
+          "itemId": "skill-1",
+          "name": "JavaScript, HTML, CSS",
+          "value": 80,
+        },
+        Object {
+          "itemId": "skill-2",
+          "name": "ReactJS",
+          "value": 60,
+        },
+        Object {
+          "itemId": "skill-3",
+          "name": "SCSS",
+          "value": 60,
+        },
+        Object {
+          "itemId": "skill-5",
+          "name": "Webpack",
+          "value": 50,
+        },
+        Object {
+          "itemId": "skill-6",
+          "name": "Node.js",
+          "value": 60,
+        },
+        Object {
+          "itemId": "skill-7",
+          "name": "Git",
+          "value": 60,
+        },
+      ]
+    }
+    summary="I am an ambitious Web
+Application Developer who
+always tries to improve himself
+everyday, a quick learner who
+can absorb new ideas and can
+communicate clearly and
+effectively. Looking for an
+ambitious company which will
+challenge my developer and
+allows me to continue
+to develop my knowledge and
+potential."
+    title="About Me"
+  />
+  <Memo(Experiences)
+    timeline={
+      Object {
+        "iconClassName": "lni-briefcase",
+        "items": Array [
+          Object {
+            "endDate": "May 2020",
+            "key": 1,
+            "organization": "Ubitec",
+            "role": "JAVASCRIPT DEVELOPER",
+            "startDate": "September 2019",
+          },
+          Object {
+            "endDate": "August 2019",
+            "key": 2,
+            "organization": "KMS Technology Inc., Vietnam",
+            "role": "SOFTWARE ENGINEER",
+            "startDate": "November 2017",
+          },
+          Object {
+            "description": "I had joined KMS as a fresher before graduating. I had been trained to become an official employee for 2 months. Then, I joined one of the biggest project team in the company.",
+            "endDate": "November 2017",
+            "key": 3,
+            "organization": "KMS Technology Inc., Vietnam",
+            "role": "FRESHER",
+            "startDate": "September 2017",
+          },
+        ],
+      }
+    }
+    title="Experiences"
+  />
+  <Memo(Projects)
+    items={
+      Array [
+        Object {
+          "description": "A chat tool that helps customers can contact with bankers and versa vice",
+          "endDate": "May 2020",
+          "isCurrentProject": false,
+          "name": "Textme",
+          "role": "Developer",
+          "startDate": "September 2019",
+        },
+        Object {
+          "description": "A ticket-selling website for US high school events",
+          "endDate": "June 2019",
+          "isCurrentProject": false,
+          "name": "Huddle",
+          "role": "Developer",
+          "startDate": "January 2019",
+        },
+        Object {
+          "description": "A micro-services project management application
+which helps managers to keep track of resource allocation",
+          "endDate": "January 2019",
+          "isCurrentProject": false,
+          "name": "ERTPMTool",
+          "role": "Developer",
+          "startDate": "July 2018",
+        },
+        Object {
+          "description": "Provider Search is a user interface that allows
+users to search for practitioners in the MasterFile. Built on the Single",
+          "endDate": "June 2018",
+          "isCurrentProject": false,
+          "name": "PDV",
+          "role": "Developer",
+          "startDate": "February 2018",
+        },
+        Object {
+          "description": "An internal tool which supports managers to keep track of resource allocation",
+          "endDate": "February 2018",
+          "isCurrentProject": false,
+          "name": "DMTool",
+          "role": "Developer",
+          "startDate": "September 2017",
+        },
+      ]
+    }
+    title="Relevant Projects"
+  />
+  <Memo(Educations)
+    timeline={
+      Object {
+        "iconClassName": "lni-graduation",
+        "items": Array [
+          Object {
+            "description": "Computer Science Major",
+            "endDate": "April 2018",
+            "key": 1,
+            "organization": "Bach Khoa University, Ho Chi Minh City",
+            "role": "SOFTWARE ENGINEER DEGREE",
+            "startDate": "September 2013",
+          },
+        ],
+      }
+    }
+    title="Educations"
+  />
+  <Memo(Achievements)
+    timeline={
+      Object {
+        "iconClassName": "lni-certificate",
+        "items": Array [
+          Object {
+            "description": "AWS Certified Cloud Practitioner",
+            "endDate": "August 2023",
+            "key": 1,
+            "organization": "Amazon Web Services (AWS)",
+            "startDate": "August 2020",
+          },
+        ],
+      }
+    }
+    title="Achievements"
+  />
+  <Memo(Footer)
+    copyright="Copyright © 2019 Dung Nguyen • A Freelance UI Designer & Web Developer"
+    logoUrl="test-file-stub"
+    slogan="Keep It Simple, Stupid"
+    socialNetworks={
+      Array [
+        Object {
+          "iconUrl": "test-file-stub",
+          "name": "Facebook",
+          "url": "https://www.facebook.com/minh.dung.391",
+        },
+        Object {
+          "iconUrl": "test-file-stub",
+          "name": "Instagram",
+          "url": "https://www.instagram.com/dungvmnguyen",
+        },
+        Object {
+          "iconUrl": "test-file-stub",
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/dungvmn1995",
+        },
+      ]
+    }
+  />
+</Fragment>
+`;

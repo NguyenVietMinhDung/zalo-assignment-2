@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BasicInformation /> renders correctly 1`] = `
+<ul
+  className="basic-info"
+>
+  <Memo(BasicInformationItem)
+    iconClassName="lni-calendar"
+    key="Date of birth"
+    name="Date of birth"
+    value="16 January 1995"
+  />
+  <Memo(BasicInformationItem)
+    iconClassName="lni-envelope"
+    key="Email"
+    name="Email"
+    value="ngvietminhdung@gmail.com"
+  />
+  <Memo(BasicInformationItem)
+    iconClassName="lni-phone-handset"
+    key="Phone"
+    name="Phone"
+    value="(076) 401-2912"
+  />
+  <Memo(BasicInformationItem)
+    iconClassName="lni-map-marker"
+    key="Location"
+    name="Location"
+    value="Tan Binh District, HCM City"
+  />
+</ul>
+`;

@@ -1,0 +1,47 @@
+@import '../../../styles/abstracts/variables';
+@import '../../../styles/abstracts/mixins';
+
+@include form($white-color);
+
+.content {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+
+	.introduction {
+		display: flex;
+
+		padding: 25px 0;
+		align-items: flex-start;
+		flex-flow: column wrap;
+
+		.greeting {
+			@include font(inherit, inherit, $black-color, 18px, 500);
+			padding-bottom: 15px;
+		}
+
+		@media (min-width: $layout-breakpoint) {
+			flex: 0.45;
+		}
+
+		@media (max-width: $layout-breakpoint) {
+			flex: auto;
+		}
+	}
+
+	.skills {
+		display: flex;
+
+		padding: 25px 0;
+		align-items: flex-end;
+		flex-flow: column wrap;
+
+		@media (min-width: $layout-breakpoint) {
+			flex: 0.45;
+		}
+
+		@media (max-width: $layout-breakpoint) {
+			flex: auto;
+		}
+	}
+}

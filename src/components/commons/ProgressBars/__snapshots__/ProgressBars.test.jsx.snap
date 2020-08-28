@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgressBars /> renders correctly 1`] = `
+<ul
+  className="progress-bars"
+>
+  <Memo(ProgressBarItem)
+    itemId="skill-1"
+    key="skill-1"
+    name="JavaScript, HTML, CSS"
+    value={80}
+  />
+  <Memo(ProgressBarItem)
+    itemId="skill-2"
+    key="skill-2"
+    name="ReactJS"
+    value={60}
+  />
+  <Memo(ProgressBarItem)
+    itemId="skill-3"
+    key="skill-3"
+    name="SCSS"
+    value={60}
+  />
+  <Memo(ProgressBarItem)
+    itemId="skill-5"
+    key="skill-5"
+    name="Webpack"
+    value={50}
+  />
+  <Memo(ProgressBarItem)
+    itemId="skill-6"
+    key="skill-6"
+    name="Node.js"
+    value={60}
+  />
+  <Memo(ProgressBarItem)
+    itemId="skill-7"
+    key="skill-7"
+    name="Git"
+    value={60}
+  />
+</ul>
+`;

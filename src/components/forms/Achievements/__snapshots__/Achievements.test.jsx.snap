@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Achievements /> renders correctly 1`] = `
+<div
+  className="background"
+  id="my-achievements"
+>
+  <div
+    className="container"
+    data-aos="fade-right"
+    data-aos-duration="2000"
+  >
+    <div
+      className="title"
+    >
+      Achievements
+    </div>
+    <div
+      className="content"
+    >
+      <Memo(TimeLine)
+        iconClassName="lni-certificate"
+        items={
+          Array [
+            Object {
+              "description": "AWS Certified Cloud Practitioner",
+              "endDate": "August 2023",
+              "key": 1,
+              "organization": "Amazon Web Services (AWS)",
+              "startDate": "August 2020",
+            },
+          ]
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> renders correctly 1`] = `
+<div
+  className="header"
+  id="header"
+  onMouseMove={[Function]}
+  onMouseOut={[Function]}
+>
+  <div
+    className="dynamic-background"
+    id="dynamic-background"
+  />
+  <div
+    className="content"
+  >
+    <div
+      className="introduction"
+    >
+      <div
+        className="greeting"
+      >
+        HELLO, I'M
+      </div>
+      <div
+        className="name"
+      >
+        Dung Nguyen
+      </div>
+      <div
+        className="description"
+      >
+        A Freelance UI Designer & Web Developer
+      </div>
+      <Memo(Button)
+        handleClickEvent={[Function]}
+        text="DOWNLOAD MY CV"
+      />
+    </div>
+    <div
+      className="avatar"
+    >
+      <img
+        alt=""
+        src="test-file-stub"
+      />
+    </div>
+  </div>
+  <div
+    className="social-networks"
+  >
+    <Memo(SocialNetworks)
+      items={
+        Array [
+          Object {
+            "iconUrl": "test-file-stub",
+            "name": "Facebook",
+            "url": "https://www.facebook.com/minh.dung.391",
+          },
+          Object {
+            "iconUrl": "test-file-stub",
+            "name": "Instagram",
+            "url": "https://www.instagram.com/dungvmnguyen",
+          },
+          Object {
+            "iconUrl": "test-file-stub",
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/dungvmn1995",
+          },
+        ]
+      }
+    />
+  </div>
+</div>
+`;

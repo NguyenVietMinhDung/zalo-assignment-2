@@ -1,0 +1,148 @@
+@import '../../../styles/abstracts/variables';
+@import '../../../styles/abstracts/mixins';
+
+.header {
+	position: relative;
+
+	display: flex;
+	overflow: hidden;
+	align-items: center;
+	flex-flow: column wrap;
+
+	.dynamic-background {
+		position: absolute;
+		top: 0;
+		left: -100px;
+
+		width: calc(100% + 200px);
+		height: 100%;
+
+		transition: all 0.25s ease-out 0s;
+
+		background: url($header-bg-img) no-repeat center;
+		background-size: cover;
+	}
+
+	.content {
+		z-index: 1;
+
+		display: flex;
+		align-items: center;
+		flex-flow: row wrap;
+
+		.introduction {
+			flex: 1;
+
+			.name {
+				@media (min-width: $layout-breakpoint) {
+					@include font(inherit, uppercase, $black-color, 60px, 600);
+				}
+
+				@media (max-width: $layout-breakpoint) {
+					@include font(inherit, uppercase, $black-color, 38px, 600);
+				}
+			}
+
+			.greeting {
+				@media (min-width: $layout-breakpoint) {
+					@include font(inherit, uppercase, $violet-color, 30px, 600);
+				}
+
+				@media (max-width: $layout-breakpoint) {
+					@include font(inherit, uppercase, $violet-color, 24px, 600);
+				}
+			}
+
+			.description {
+				padding-bottom: 30px;
+			}
+		}
+
+		@media (min-width: $layout-breakpoint) {
+			width: $layout-breakpoint;
+			padding-top: 150px;
+
+			.avatar {
+				position: relative;
+
+				display: flex;
+				flex: 1;
+				flex-flow: row wrap;
+				justify-content: center;
+
+				img {
+					position: relative;
+
+					width: 300px;
+					height: 450px;
+				}
+
+				&::before {
+					position: absolute;
+					top: 60px;
+
+					width: 265px;
+					height: 350px;
+
+					content: '';
+
+					border: 20px solid $violet-color;
+				}
+
+				&::after {
+					position: absolute;
+					bottom: 0;
+
+					width: 305px;
+					height: 20px;
+
+					content: '';
+
+					background-color: $violet-color;
+				}
+			}
+		}
+
+		@media (max-width: $layout-breakpoint) {
+			width: auto;
+			padding-top: 200px;
+
+			.avatar {
+				display: none;
+			}
+		}
+	}
+
+	.social-networks {
+		position: relative;
+
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: flex-start;
+
+		&::before {
+			position: absolute;
+			top: 50%;
+			left: -100%;
+
+			width: 100%;
+			height: 2px;
+
+			content: '';
+			transform: translateY(-50%);
+
+			background-color: $violet-color;
+		}
+
+		@media (min-width: $layout-breakpoint) {
+			width: $layout-breakpoint;
+			margin-top: 0;
+			padding: 0;
+		}
+
+		@media (max-width: $layout-breakpoint) {
+			width: calc(100% - 30px);
+			margin-top: 50px;
+		}
+	}
+}

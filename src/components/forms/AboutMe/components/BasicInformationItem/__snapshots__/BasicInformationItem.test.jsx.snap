@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BasicInformationItem /> renders correctly 1`] = `
+<li
+  className="basic-info-item"
+  key="Date of birth"
+>
+  <i
+    className="lni-calendar icon"
+  />
+  <div
+    className="text"
+  >
+    <span>
+      Date of birth
+      :
+    </span>
+    <span>
+       
+      16 January 1995
+    </span>
+  </div>
+</li>
+`;

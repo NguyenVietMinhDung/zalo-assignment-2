@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> renders correctly 1`] = `
+<div
+  className="footer"
+  id="footer"
+>
+  <div
+    className="content"
+  >
+    <div
+      className="brand"
+    >
+      <Memo(Brand)
+        logoUrl="test-file-stub"
+      />
+    </div>
+    <div
+      className="slogan"
+    >
+      Keep It Simple, Stupid
+    </div>
+    <Memo(SocialNetworks)
+      items={
+        Array [
+          Object {
+            "iconUrl": "test-file-stub",
+            "name": "Facebook",
+            "url": "https://www.facebook.com/minh.dung.391",
+          },
+          Object {
+            "iconUrl": "test-file-stub",
+            "name": "Instagram",
+            "url": "https://www.instagram.com/dungvmnguyen",
+          },
+          Object {
+            "iconUrl": "test-file-stub",
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/dungvmn1995",
+          },
+        ]
+      }
+    />
+  </div>
+  <div
+    className="copyright"
+  >
+    Copyright © 2019 Dung Nguyen • A Freelance UI Designer & Web Developer
+  </div>
+</div>
+`;

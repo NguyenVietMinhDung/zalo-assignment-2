@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports['<SocialNetworkItem /> renders correctly 1'] = `
+<li>
+  <a
+    href="https://www.facebook.com/minh.dung.391"
+  >
+    <img
+      alt=""
+      className="social-network-item"
+      src="test-file-stub"
+    />
+  </a>
+</li>
+`;
