@@ -1,0 +1,233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> renders correctly 1`] = `
+<div
+  className="app"
+>
+  <Navbar
+    items={
+      Array [
+        Object {
+          "id": "other",
+          "name": "Khác",
+        },
+        Object {
+          "id": "bread",
+          "name": "Bánh Mì",
+        },
+        Object {
+          "id": "cake",
+          "name": "Bánh Ngọt",
+        },
+        Object {
+          "id": "coffee",
+          "name": "Cà Phê Đóng Gói",
+        },
+        Object {
+          "id": "Tea",
+          "name": "Trà",
+        },
+      ]
+    }
+  />
+  <Categories
+    categories={
+      Array [
+        Object {
+          "id": "other",
+          "items": Array [
+            Object {
+              "id": 0,
+              "img": "270_crop_PHININOX.png",
+              "name": Object {
+                "en": "Phin Inox",
+                "vi": "Phin Inox",
+              },
+              "price": 80000,
+            },
+            Object {
+              "id": 1,
+              "img": "270_crop_LYSU.png",
+              "name": Object {
+                "en": "Mosaic Mug",
+                "vi": "Ly Sứ Mosaic",
+              },
+              "price": 29000,
+            },
+          ],
+          "name": "Khác",
+        },
+        Object {
+          "id": "bread",
+          "items": Array [
+            Object {
+              "id": 0,
+              "img": "270_crop_BMXIUMAI.png",
+              "name": Object {
+                "en": "Pork Meatball",
+                "vi": "Xíu Mại",
+              },
+              "price": 19000,
+            },
+            Object {
+              "id": 1,
+              "img": "270_crop_BMCHALUAXAXIU.png",
+              "name": Object {
+                "en": "Roast Pork & Pork Sausage",
+                "vi": "Chả Lụa Xá Xíu",
+              },
+              "price": 19000,
+            },
+            Object {
+              "id": 2,
+              "img": "270_crop_BMGAXE.png",
+              "name": Object {
+                "en": "Roast Chicken",
+                "vi": "Gà Xé Nước Tương",
+              },
+              "price": 19000,
+            },
+            Object {
+              "id": 3,
+              "img": "270_crop_BMTHITNUONG.png",
+              "name": Object {
+                "en": "Grilled Pork",
+                "vi": "Thịt Nướng",
+              },
+              "price": 19000,
+            },
+          ],
+          "name": "Bánh Mì",
+        },
+        Object {
+          "id": "cake",
+          "items": Array [
+            Object {
+              "id": 0,
+              "img": "270_crop_MOUSSECACAO.png",
+              "name": Object {
+                "en": "Cocoa Mousse Cake",
+                "vi": "Bánh Mousse Cacao",
+              },
+              "price": 29000,
+            },
+            Object {
+              "id": 1,
+              "img": "270_crop_MOUSSEDAO.png",
+              "name": Object {
+                "en": "Peach Mousse Cake",
+                "vi": "Bánh Mousse Đào",
+              },
+              "price": 29000,
+            },
+            Object {
+              "id": 2,
+              "img": "270_crop_SOCOLAHL.png",
+              "name": Object {
+                "en": "Highlands Chocolate Bomb",
+                "vi": "Bánh Sô-cô-la Highlands",
+              },
+              "price": 29000,
+            },
+          ],
+          "name": "Bánh Ngọt",
+        },
+        Object {
+          "id": "coffee",
+          "items": Array [
+            Object {
+              "id": 0,
+              "img": "270_crop_LATTE.png",
+              "name": Object {
+                "en": "Latte",
+                "vi": "Latte",
+              },
+              "price": 60000,
+            },
+            Object {
+              "id": 1,
+              "img": "270_crop_CAPPUCINO.png",
+              "name": Object {
+                "en": "Cappuccino",
+                "vi": "Cappuccino",
+              },
+              "price": 60000,
+            },
+            Object {
+              "id": 2,
+              "img": "270_crop_AMERICANO.png",
+              "name": Object {
+                "en": "Americano",
+                "vi": "Americano",
+              },
+              "price": 60000,
+            },
+            Object {
+              "id": 3,
+              "img": "270_crop_ESPRESSO.png",
+              "name": Object {
+                "en": "Espresso",
+                "vi": "Espresso",
+              },
+              "price": 60000,
+            },
+            Object {
+              "id": 4,
+              "img": "270_crop_CARAMEL-MACCHIATO.png",
+              "name": Object {
+                "en": "Caramel Macchiato",
+                "vi": "Caramel Macchiato",
+              },
+              "price": 60000,
+            },
+          ],
+          "name": "Cà Phê Đóng Gói",
+        },
+        Object {
+          "id": "Tea",
+          "items": Array [
+            Object {
+              "id": 0,
+              "img": "270_crop_TRATHACHVAI_1.png",
+              "name": Object {
+                "en": "Lychee Tea",
+                "vi": "Trà Thạch Vãi",
+              },
+              "price": 39000,
+            },
+            Object {
+              "id": 1,
+              "img": "270_crop_TRATHACHDAO.png",
+              "name": Object {
+                "en": "Peach Jelly Tea",
+                "vi": "Trà Thạch Đào",
+              },
+              "price": 39000,
+            },
+            Object {
+              "id": 2,
+              "img": "270_crop_TRATHANHDAO.png",
+              "name": Object {
+                "en": "Peach Lemongrass Tea",
+                "vi": "Trà Thanh Đào",
+              },
+              "price": 39000,
+            },
+            Object {
+              "id": 3,
+              "img": "270_crop_TRASENVANG.png",
+              "name": Object {
+                "en": "Golden Lotus Tea",
+                "vi": "Trà Sen Vàng",
+              },
+              "price": 39000,
+            },
+          ],
+          "name": "Trà",
+        },
+      ]
+    }
+  />
+  <ViewCartButton />
+</div>
+`;

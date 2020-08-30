@@ -1,0 +1,26 @@
+@import '../../../styles/variables';
+
+.category-link {
+	position: relative;
+
+	display: flex;
+	flex: 1;
+
+	padding: 0 15px;
+
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+
+	a {
+		color: $light-pink;
+	}
+
+	&:hover {
+		cursor: pointer;
+
+		a {
+			color: white;
+		}
+	}
+}

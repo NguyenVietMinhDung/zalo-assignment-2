@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Product /> renders correctly 1`] = `
+<Row
+  align="normal"
+  className="product"
+  component="div"
+  debug={false}
+  gutterWidth={null}
+  justify="start"
+  nogutter={false}
+  nowrap={false}
+  style={Object {}}
+>
+  <Col
+    component="div"
+    debug={false}
+    lg={null}
+    md={null}
+    offset={Object {}}
+    pull={Object {}}
+    push={Object {}}
+    sm={null}
+    style={Object {}}
+    width={null}
+    xl={null}
+    xs={3}
+    xxl={null}
+  >
+    <img
+      alt=""
+      src=""
+    />
+  </Col>
+  <Col
+    component="div"
+    debug={false}
+    lg={null}
+    md={null}
+    offset={Object {}}
+    pull={Object {}}
+    push={Object {}}
+    sm={null}
+    style={Object {}}
+    width={null}
+    xl={null}
+    xs={6}
+    xxl={null}
+  >
+    <div
+      className="product__name--vi"
+    />
+    <div
+      className="product__name--en"
+    />
+  </Col>
+  <Col
+    component="div"
+    debug={false}
+    lg={null}
+    md={null}
+    offset={Object {}}
+    pull={Object {}}
+    push={Object {}}
+    sm={null}
+    style={Object {}}
+    width={null}
+    xl={null}
+    xs={3}
+    xxl={null}
+  >
+    NaNđ
+  </Col>
+</Row>
+`;

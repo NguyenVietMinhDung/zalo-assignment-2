@@ -1,0 +1,36 @@
+@import '../../../../styles/variables';
+
+.product {
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+	border-bottom: 1px solid $white-smoke;
+
+	img {
+		width: 100%;
+		height: 100%;
+
+		cursor: pointer;
+
+		border-radius: 10px;
+		background-color: $white-smoke;
+	}
+
+	&__name {
+		&--vi {
+			margin-bottom: 5px;
+
+			cursor: pointer;
+
+			font-size: 14px;
+			font-weight: 500;
+		}
+
+		&--en {
+			opacity: 0.5;
+
+			font-size: 10px;
+		}
+	}
+}

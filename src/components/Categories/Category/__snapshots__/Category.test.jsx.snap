@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Category /> renders correctly 1`] = `
+<Container
+  className="category"
+  component="div"
+  fluid={false}
+  id="other"
+  lg={false}
+  md={false}
+  sm={false}
+  style={Object {}}
+  xl={false}
+  xs={false}
+  xxl={false}
+>
+  <Row
+    align="normal"
+    component="div"
+    debug={false}
+    gutterWidth={null}
+    justify="start"
+    nogutter={false}
+    nowrap={false}
+    style={Object {}}
+  >
+    <Col
+      component="div"
+      debug={false}
+      lg={null}
+      md={null}
+      offset={Object {}}
+      pull={Object {}}
+      push={Object {}}
+      sm={null}
+      style={Object {}}
+      width={null}
+      xl={null}
+      xs={null}
+      xxl={null}
+    >
+      <h3>
+        Khác
+      </h3>
+    </Col>
+  </Row>
+  <Product
+    id={0}
+    img="270_crop_PHININOX.png"
+    key="0"
+    name={
+      Object {
+        "en": "Phin Inox",
+        "vi": "Phin Inox",
+      }
+    }
+    price={80000}
+  />
+  <Product
+    id={1}
+    img="270_crop_LYSU.png"
+    key="1"
+    name={
+      Object {
+        "en": "Mosaic Mug",
+        "vi": "Ly Sứ Mosaic",
+      }
+    }
+    price={29000}
+  />
+</Container>
+`;

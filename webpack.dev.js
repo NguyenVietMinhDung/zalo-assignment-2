@@ -12,21 +12,11 @@ module.exports = merger(common, {
   module: {
     rules: [
       {
-        test: /\.scss$/,
+        test: /\.(scss)$/,
         exclude: /node_modules/,
         use: [
           'style-loader',
-          {
-            loader: 'css-loader',
-            options: {
-              sourceMap: true,
-              modules: {
-                mode: 'local',
-                localIdentName: '[name]__[local]',
-              },
-              importLoaders: 1,
-            },
-          },
+          'css-loader',
           'sass-loader',
         ],
       },

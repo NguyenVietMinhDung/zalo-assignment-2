@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navbar /> renders correctly 1`] = `
+<div
+  className="navbar"
+>
+  <Scrollspy
+    className="navbar__menu"
+    componentTag="ul"
+    currentClassName="is-current"
+    items={
+      Array [
+        "other",
+        "bread",
+        "cake",
+        "coffee",
+        "Tea",
+      ]
+    }
+    offset={0}
+    onUpdate={[Function]}
+    style={Object {}}
+  >
+    <CategoryLink
+      id="other"
+      key="other"
+      name="Khác"
+    />
+    <CategoryLink
+      id="bread"
+      key="bread"
+      name="Bánh Mì"
+    />
+    <CategoryLink
+      id="cake"
+      key="cake"
+      name="Bánh Ngọt"
+    />
+    <CategoryLink
+      id="coffee"
+      key="coffee"
+      name="Cà Phê Đóng Gói"
+    />
+    <CategoryLink
+      id="Tea"
+      key="Tea"
+      name="Trà"
+    />
+  </Scrollspy>
+  <div
+    className="navbar__search"
+  >
+    <i
+      className="lni lni-32 lni-search-alt"
+    />
+  </div>
+</div>
+`;

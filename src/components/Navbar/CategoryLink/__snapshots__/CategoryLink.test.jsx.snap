@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CategoryLink /> renders correctly 1`] = `
+<li
+  className="category-link undefined"
+>
+  <a
+    href="#Other"
+  >
+    Khác
+  </a>
+</li>
+`;

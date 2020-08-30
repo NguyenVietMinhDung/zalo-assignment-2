@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ViewCartButton /> renders correctly 1`] = `
+<div
+  className="view-cart-btn"
+>
+  <div
+    className="view-cart-btn__text"
+  >
+    <div>
+      Xem đơn hàng
+    </div>
+    <div>
+      1
+    </div>
+    <div>
+      47.000đ
+    </div>
+  </div>
+</div>
+`;

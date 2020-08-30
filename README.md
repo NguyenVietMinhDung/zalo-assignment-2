@@ -1,4 +1,4 @@
-# Zalo-test
+# Zalo-assignment-1
 
 ## Pre-required
 * **Node** - v10.15.1 or later

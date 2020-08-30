@@ -1,0 +1,12 @@
+//@import '../abstracts/mixins';
+@import 'variables';
+
+// Default font
+body {
+	text-transform: inherit;
+
+	color: $brown;
+
+	font-family: $default-font-family;
+	font-size: 14px;
+}

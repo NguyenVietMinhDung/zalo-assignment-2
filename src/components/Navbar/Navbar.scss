@@ -1,0 +1,60 @@
+@import '../../styles/variables';
+
+.navbar {
+	position: sticky;
+
+	z-index: 1;
+	top: 0;
+
+	display: flex;
+
+	background-color: $light-red;
+
+	&__menu {
+		display: flex;
+		overflow: auto;
+		flex: 1;
+
+		height: 50px;
+
+		margin: 0;
+		padding: 0 10px;
+
+		white-space: nowrap;
+
+		.is-current {
+			a {
+				color: white;
+			}
+
+			&::after {
+				position: absolute;
+				bottom: 0;
+
+				width: 100%;
+				height: 4px;
+
+				content: '';
+
+				background-color: orange;
+			}
+		}
+	}
+
+	&__search {
+		display: flex;
+
+		padding: 0 10px;
+
+		color: $light-pink;
+		border-left: 1px solid $dark-red;
+		align-items: center;
+		justify-content: center;
+
+		&:hover {
+			cursor: pointer;
+
+			color: white;
+		}
+	}
+}
