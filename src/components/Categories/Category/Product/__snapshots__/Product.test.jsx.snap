@@ -48,11 +48,25 @@ exports[`<Product /> renders correctly 1`] = `
     xxl={null}
   >
     <div
-      className="product__name--vi"
-    />
+      className="product__name"
+    >
+      <Truncate
+        ellipsis={<_default />}
+        lines={2}
+        trimWhitespace={false}
+        width={0}
+      />
+    </div>
     <div
-      className="product__name--en"
-    />
+      className="product__description"
+    >
+      <Truncate
+        ellipsis={<_default />}
+        lines={1}
+        trimWhitespace={false}
+        width={0}
+      />
+    </div>
   </Col>
   <Col
     component="div"
