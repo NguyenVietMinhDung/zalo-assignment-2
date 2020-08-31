@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Ellipsis /> renders correctly 1`] = `
+<span>
+  ...
+</span>
+`;

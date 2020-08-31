@@ -45,27 +45,19 @@ exports[`<Category /> renders correctly 1`] = `
     </Col>
   </Row>
   <Product
+    description="Phin Inox"
     id={0}
     img="270_crop_PHININOX.png"
     key="0"
-    name={
-      Object {
-        "en": "Phin Inox",
-        "vi": "Phin Inox",
-      }
-    }
+    name="Phin Inox"
     price={80000}
   />
   <Product
+    description="Mosaic Mug"
     id={1}
     img="270_crop_LYSU.png"
     key="1"
-    name={
-      Object {
-        "en": "Mosaic Mug",
-        "vi": "Ly Sứ Mosaic",
-      }
-    }
+    name="Ly Sứ Mosaic"
     price={29000}
   />
 </Container>
